@@ -13,6 +13,8 @@ import SearchInput from "./components/SearchInput";
 
 export default class App extends React.Component {
   render() {
+    const location = "San Francisco";
+
     return (
       <KeyboardAvoidingView style={styles.container} behavior="height">
         <ImageBackground
@@ -21,9 +23,7 @@ export default class App extends React.Component {
           imageStyle={styles.image}
         >
           <View style={styles.detailsContainer}>
-            <Text style={[styles.largeText, styles.textStyle]}>
-              San Francisco
-            </Text>
+            <Text style={[styles.largeText, styles.textStyle]}>{location}</Text>
             <Text style={[styles.smallText, styles.textStyle]}>
               Light Cloud
             </Text>
