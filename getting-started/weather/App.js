@@ -84,7 +84,7 @@ export default class App extends React.Component {
                       {location}
                     </Text>
 
-                    <Text style={[styles.largeText, styles.textStyle]}>
+                    <Text style={[styles.smallText, styles.textStyle]}>
                       {weather}
                     </Text>
 
