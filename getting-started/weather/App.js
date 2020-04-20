@@ -15,15 +15,8 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      location: "",
+      location: "San Francisco",
     };
-  }
-
-  componentDidMount() {
-    // debug
-    console.log(this.state);
-
-    this.handleUpdateLocation("San Mateo");
   }
 
   handleUpdateLocation = (city) => {
