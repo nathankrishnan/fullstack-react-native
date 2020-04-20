@@ -26,7 +26,7 @@ export default class App extends React.Component {
   };
 
   render() {
-    const location = "San Francisco";
+    const { location } = this.state;
 
     return (
       <KeyboardAvoidingView style={styles.container} behavior="height">
